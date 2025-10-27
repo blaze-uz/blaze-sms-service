@@ -11,8 +11,8 @@
         }
     ],
     "support": {
-        "source": "https://github.com/yourusername/blaze-sms-service",
-        "issues": "https://github.com/yourusername/blaze-sms-service/issues"
+        "source": "https://github.com/blaze-uz/blaze-sms-service",
+        "issues": "https://github.com/blaze-uz/blaze-sms-service/issues"
     },
     "autoload": {
         "psr-4": {
