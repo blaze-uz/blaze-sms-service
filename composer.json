@@ -1,6 +1,7 @@
 {
     "name": "blaze/sms-service",
     "description": "Reusable SMS sending package for Laravel",
+    "type": "library",
     "minimum-stability": "dev",
     "license": "MIT",
     "authors": [
@@ -9,6 +10,10 @@
             "email": "1996azizbekeshonaliyev@gmail.com"
         }
     ],
+    "support": {
+        "source": "https://github.com/yourusername/blaze-sms-service",
+        "issues": "https://github.com/yourusername/blaze-sms-service/issues"
+    },
     "autoload": {
         "psr-4": {
             "Blaze\\SmsService\\": "src/"
