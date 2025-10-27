@@ -1,0 +1,27 @@
+{
+    "name": "blaze/sms-service",
+    "description": "Reusable SMS sending package for Laravel",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Azizbek Eshonaliyev",
+            "email": "1996azizbekeshonaliyev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Blaze\\SmsService\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Blaze\\SmsService\\SmsServiceProvider"
+            ],
+            "aliases": {
+                "Sms": "Blaze\\SmsService\\Facades\\Sms"
+            }
+        }
+    }
+}
